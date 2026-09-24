@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "shireautomations-agent-skill",
+  "version": "1.0.0",
+  "description": "Route agents to Shire Automations services, published pricing, and human-confirmed contact paths.",
+  "author": {
+    "name": "Shire Automations",
+    "url": "https://shireautomations.com"
+  },
+  "homepage": "https://shireautomations.com",
+  "repository": "https://github.com/praisondani/shireautomations-agent-skill",
+  "keywords": [
+    "shire-automations",
+    "workflow-automation",
+    "ai-agents",
+    "business-automation",
+    "agent-skill",
+    "contact"
+  ]
+}
