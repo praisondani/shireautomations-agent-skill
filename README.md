@@ -15,7 +15,7 @@ The planning API shares published information and calculates results from caller
 
 No API key is required. Do not send credentials or sensitive customer, patient, or financial-account data. Results are estimates based on the inputs and are not forecasts.
 
-The [CLI and local MCP server source](https://github.com/praisondani/shireautomations/tree/master/cli) use the same API. The MCP server runs over stdio; it does not host a remote endpoint or submit intake forms.
+The [CLI and local MCP server](https://github.com/praisondani/shireautomations-cli) use the same API. Install the [latest release](https://github.com/praisondani/shireautomations-cli/releases/latest) to use the `shire` command. The MCP server runs over stdio; it does not host a remote endpoint or submit intake forms.
 
 ## Install
 

@@ -43,7 +43,8 @@ Explain which path you chose and let the person confirm before submitting a form
 - API catalog: https://shireautomations.com/api/v1/catalog
 - Planning tools: https://shireautomations.com/api/v1/tools
 - Postman collection: https://shireautomations.com/postman-collection.json
-- CLI and local MCP source: https://github.com/praisondani/shireautomations/tree/master/cli
+- CLI and local MCP server: https://github.com/praisondani/shireautomations-cli
+- Latest CLI release: https://github.com/praisondani/shireautomations-cli/releases/latest
 
 Free tools use the visitor's own inputs. They are directional planning aids, not guaranteed outcomes. Selected work shows products and platforms built by Shire Automations; it is not a list of customer success statistics.
 
