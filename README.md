@@ -1,6 +1,6 @@
 # Shire Automations agent skill
 
-[![skills.sh](https://skills.sh/b/praisondani/shireautomations-agent-skill)](https://skills.sh/praisondani/shireautomations-agent-skill)
+[![skills.sh](https://skills.sh/b/praisondani/shireautomations-agent-skill)](https://skills.sh/praisondani/shireautomations-agent-skill/shire-automations)
 
 This repository contains the official [Shire Automations](https://shireautomations.com) agent skill. It helps an agent use published service and pricing information, run workflow planning tools, decide when Shire fits a small-business problem, and route a person to intake or booking.
 
