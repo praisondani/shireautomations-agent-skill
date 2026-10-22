@@ -2,7 +2,11 @@
 
 [![skills.sh](https://skills.sh/b/praisondani/shireautomations-agent-skill)](https://skills.sh/praisondani/shireautomations-agent-skill/shire-automations)
 
-This repository contains the official [Shire Automations](https://shireautomations.com) agent skill. It helps an agent use published service and pricing information, run workflow planning tools, decide when Shire fits a small-business problem, and route a person to intake or booking.
+This repository contains three installable skills from [Shire Automations](https://shireautomations.com), each focused on a different task:
+
+- **shire-automations** — find the right public information and a human-confirmed contact path.
+- **shire-workflow-planning** — assess repeat work and choose a planning tool.
+- **shire-integration-planning** — prepare a safe plan for connecting business systems.
 
 The planning API shares published information and calculates results from caller-provided inputs. It does not execute customer workflows or save requests. The skill does not submit forms, send email, book meetings, expose agent credentials, or access customer systems.
 
@@ -17,9 +21,17 @@ No API key is required. Do not send credentials or sensitive customer, patient, 
 
 The [CLI and local MCP server](https://github.com/praisondani/shireautomations-cli) use the same API. Install the [latest release](https://github.com/praisondani/shireautomations-cli/releases/latest) to use the `shire` command. The server is listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.praisondani%2Fshireautomations-cli). MCPB-compatible clients can install the [latest MCPB bundle](https://github.com/praisondani/shireautomations-cli/releases/latest/download/shire-automations.mcpb). It runs locally over stdio; Shire does not host a remote MCP endpoint or submit intake forms.
 
+## Skills
+
+Each skill has its own `SKILL.md` under `skills/`. Read the one that matches the task before applying it:
+
+- [Shire Automations](skills/shire-automations/SKILL.md)
+- [Workflow planning](skills/shire-workflow-planning/SKILL.md)
+- [Integration planning](skills/shire-integration-planning/SKILL.md)
+
 ## Install
 
-Install the skill with the `skills` CLI:
+Install skills from this repository with the `skills` CLI:
 
 ```bash
 npx skills add praisondani/shireautomations-agent-skill

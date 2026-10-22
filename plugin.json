@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "shireautomations-agent-skill",
-  "version": "1.1.0",
-  "description": "Use Shire Automations public planning tools, service information, agent guidance, and human-confirmed contact paths.",
+  "version": "1.2.0",
+  "description": "Installable Shire Automations skills for service discovery, workflow planning, integration planning, and human-confirmed contact paths.",
   "author": {
     "name": "Shire Automations",
     "url": "https://shireautomations.com"
@@ -10,14 +10,18 @@
   "homepage": "https://shireautomations.com",
   "repository": "https://github.com/praisondani/shireautomations-agent-skill",
   "keywords": [
+    "agent-skill",
+    "ai-agents",
+    "automation-opportunity",
+    "business-automation",
+    "business-integrations",
+    "cli",
+    "contact",
+    "integration-planning",
+    "mcp",
+    "planning-api",
     "shire-automations",
     "workflow-automation",
-    "ai-agents",
-    "business-automation",
-    "agent-skill",
-    "contact",
-    "planning-api",
-    "mcp",
-    "cli"
+    "workflow-planning"
   ]
 }
